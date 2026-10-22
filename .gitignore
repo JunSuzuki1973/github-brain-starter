@@ -1,0 +1,15 @@
+# 秘密情報は非公開リポジトリでも入れない
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# 大きなファイル・画像
+*.mp4
+*.mov
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
